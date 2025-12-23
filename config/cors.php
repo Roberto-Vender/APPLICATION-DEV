@@ -7,6 +7,7 @@ return [
     'allowed_methods' => ['*'],
 
     'allowed_origins' => [
+        'https://application-dev-rj8t.onrender.com', // deployed React
         'http://localhost:5173', // local dev React
         'http://localhost:3000', // alternative local dev
         'https://application-dev-1-1.onrender.com', // your deployed frontend
